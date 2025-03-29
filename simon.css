@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.btn_container{
+    width: 332px;
+    height: 332px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    border: 2px,solid,black;
+    margin: 6px;
+    border-radius: 50px;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: rgba(19, 173, 19, 0.927);
+}
+@keyframes flash{
+    from{background-color: white;}
+    to{background-color: white;}
+}
+.flash{
+    animation: flash 0.5s;
+}
+.changeBgColor{
+    background-color: red;
+}
